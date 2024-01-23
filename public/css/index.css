@@ -1,147 +1,990 @@
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
+}
+
 .task1 {
+  display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin: 5px; /* Optional: Add margin between items */
+}
+
+/* task2 */
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task2 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin-right: 10px; /* Optional: Add margin between items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task3 {
   display: flex;
+  flex-direction: row-reverse; /* Display items from right to left */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin-left: 10px; /* Optional: Add margin between items */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task4 {
   display: flex;
+  flex-direction: column; /* Display items from top to bottom */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin-bottom: 10px; /* Optional: Add margin between items */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task5 {
   display: flex;
+  flex-direction: column-reverse; /* Display items from bottom to top */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin-top: 10px; /* Optional: Add margin between items */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task6 {
   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin: 5px; /* Optional: Add margin between items */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task7 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin-right: 10px; /* Optional: Add margin between items */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task8 {
   display: flex;
+  flex-wrap: wrap-reverse; /* Allow items to wrap in reverse order */
+  flex-direction: row-reverse; /* Display items from right to left */
+  /* Add any other styles for the task container */
+}
+.item {
+  /* Add any styles for individual items */
+  margin-left: 10px; /* Optional: Add margin between items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task9 {
   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  flex-direction: row-reverse; /* Display items from right to left */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin-left: 10px; /* Optional: Add margin between items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task10 {
   display: flex;
+  justify-content: flex-start; /* Place items at the beginning of the main axis */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin-right: 10px; /* Optional: Add margin between items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task11 {
   display: flex;
+  justify-content: flex-end; /* Place items at the end of the main axis */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin-left: 10px; /* Optional: Add margin between items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task12 {
   display: flex;
+  justify-content: center; /* Center items along the main axis */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin: 0 10px; /* Optional: Add margin between items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task13 {
   display: flex;
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task14 {
   display: flex;
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin: 0 5px; /* Equal spacing between items with a smaller margin at the edges */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task15 {
   display: flex;
+  justify-content: space-around; /* Distribute items evenly along the main axis */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
 }
 
 .task16 {
   display: flex;
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 1; /* Make items flexible to fill the available space */
+  /* Add any styles for individual items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-content: flex-start; /* Align content at the beginning of the cross axis */
+  /* Add any other styles for the container */
 }
 
 .task17 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin-right: 10px; /* Optional: Add margin between items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-content: flex-end; /* Align content at the end of the cross axis */
+  /* Add any other styles for the container */
 }
 
 .task18 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin-left: 10px; /* Optional: Add margin between items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-content: center; /* Center content along the cross axis */
+  /* Add any other styles for the container */
 }
 
 .task19 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles for individual items */
+  margin: 5px; /* Optional: Add margin around items */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-content: space-between; /* Distribute space evenly along the cross axis */
+  /* Add any other styles for the container */
 }
 
 .task20 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 0 0 calc(33.33% - 10px); /* Make items flexible to fill the available space */
+  margin: 5px; /* Optional: Add margin around items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-content: space-between; /* Distribute space evenly along the cross axis */
+  /* Add any other styles for the container */
 }
 
 .task21 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 0 0 calc(16.6667% - 5px); /* Make items flexible to fill the available space */
+  /* Adjust the width and margin to distribute items evenly without any margin at the edges */
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-between; /* Distribute space evenly along the main axis */
+  /* Add any other styles for the container */
 }
 
 .task22 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 0 0 calc(16.6667% - 5px); /* Make items flexible to fill the available space */
+  margin: 0 5px; /* Adjust the margin to add spacing between items and a smaller margin at the edges */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Optional: Center the container horizontally */
+  align-items: center; /* Optional: Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-around; /* Distribute space evenly along the main axis */
+  /* Add any other styles for the container */
 }
 
 .task23 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 0 0 calc(16.6667% - 5px); /* Make items flexible to fill the available space */
+  margin: 5px; /* Adjust the margin to add equal spacing between items and the edges */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-items: center; /* Center items on the main axis */
+  /* Add any other styles for the container */
 }
 
 .task24 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 0 0 calc(16.6667% - 5px); /* Make items flexible to fill the available space */
+  margin: 5px; /* Add margin between items */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-content: flex-start; /* Align items at the beginning of the container along the cross axis */
+  /* Add any other styles for the container */
 }
 
 .task25 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 0 0 calc(16.6667% - 5px); /* Make items flexible to fill the available space */
+  margin: 5px; /* Add margin between items */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-content: flex-end; /* Align items at the end of the container along the cross axis */
+  /* Add any other styles for the container */
 }
 
 .task26 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 0 0 calc(16.6667% - 5px); /* Make items flexible to fill the available space */
+  margin: 5px; /* Add margin between items */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-content: center; /* Align items at the center of the container along the cross axis */
+  /* Add any other styles for the container */
 }
 
 .task27 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 0 0 calc(16.6667% - 5px); /* Make items flexible to fill the available space */
+  margin: 5px; /* Add margin between items */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  /* Add any other styles for the container */
 }
 
 .task28 {
   display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 0 0 calc(16.6667% - 5px); /* Make items flexible to fill the available space */
+  margin: 5px; /* Add margin between items */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  /* Add any other styles for the container */
 }
 
 .task29 {
   display: flex;
+  /* Add any other styles for the task container */
 }
 
-.task30 .item1 {
+.item {
+  margin: 5px; /* Add margin between items */
 }
 
-.task31 .item2 {
+.item:nth-child(1) {
+  align-self: baseline;
+}
+.item:nth-child(2) {
+  align-self: baseline;
+}
+.item:nth-child(3) {
+  align-self: baseline;
+}
+.item:nth-child(4) {
+  align-self: baseline;
+}
+.item:nth-child(5) {
+  align-self: baseline;
+}
+.item:nth-child(6) {
+  align-self: baseline;
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
 }
 
-.task32 .item3 {
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    auto
+  ); /* Create a grid with 6 columns */
+  gap: 5px; /* Add gap between items */
+  /* Add any other styles for the container */
 }
 
-.task33 .item4 {
+.task30 {
+  grid-row: 1; /* Place the task container in the first row */
+  grid-column: 1 / span 6; /* Span 6 columns */
+  display: flex;
+  /* Add any other styles for the task container */
 }
 
-.task34 .item1 {
+.item {
+  /* Add any styles common to all items */
 }
 
-.task35 .item2 {
+.item1 {
+  grid-column: 1; /* Align item1 at the beginning of the second line */
 }
 
-.task36 .item3 {
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
 }
 
-.task37 .item4 {
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    auto
+  ); /* Create a grid with 6 columns */
+  gap: 5px; /* Add gap between items */
+  /* Add any other styles for the container */
+}
+
+.task31 {
+  grid-row: 1; /* Place the task container in the first row */
+  grid-column: 1 / span 6; /* Span 6 columns */
+  display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles common to all items */
+}
+
+.item2 {
+  margin-left: auto; /* Align item2 at the end of the second line */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    auto
+  ); /* Create a grid with 6 columns */
+  gap: 5px; /* Add gap between items */
+  /* Add any other styles for the container */
+}
+
+.task32 {
+  grid-row: 2; /* Place the task container in the second row */
+  grid-column: 1 / span 6; /* Span 6 columns */
+  display: flex;
+  justify-content: center; /* Center items horizontally within the task container */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles common to all items */
+}
+
+.item3 {
+  /* Add any specific styles for item3 */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    auto
+  ); /* Create a grid with 6 columns */
+  gap: 5px; /* Add gap between items */
+  /* Add any other styles for the container */
+}
+
+.task33 {
+  grid-row: 2; /* Place the task container in the second row */
+  grid-column: 1 / span 6; /* Span 6 columns */
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    1fr
+  ); /* Create a grid within the task container */
+  gap: 5px; /* Add gap between items within the task container */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles common to all items */
+}
+
+.item4 {
+  grid-column: 1 / span 6; /* Span 6 columns for item4 within the task container */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    auto
+  ); /* Create a grid with 6 columns */
+  gap: 5px; /* Add gap between items */
+  /* Add any other styles for the container */
+}
+
+.task33 {
+  grid-row: 2; /* Place the task container in the second row */
+  grid-column: 1 / span 6; /* Span 6 columns */
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    1fr
+  ); /* Create a grid within the task container */
+  gap: 5px; /* Add gap between items within the task container */
+  /* Add any other styles for the task container */
+}
+
+.item {
+  /* Add any styles common to all items */
+}
+
+.item4 {
+  grid-column: 1 / span 6; /* Span 6 columns for item4 within the task container */
+  /* Add any specific styles for item4 */
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+}
+
+.container {
+  display: flex;
+  /* Add any other styles for the container */
+}
+
+.task34 {
+  display: flex;
+  /* Add any other styles for the task container */
+}
+
+.item {
+  flex: 1; /* Equal flex distribution for all items */
+  padding: 10px; /* Add padding to items for better visibility */
+  box-sizing: border-box; /* Include padding in item's total width and height */
+  /* Add any other styles common to all items */
+}
+
+.item1 {
+  flex: 0 0 50%; /* Set flex-basis to 50% for item1, allowing it to take up half of the parent container */
+  /* Add any specific styles for item1 */
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.task35 {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item1 {
+  flex: 1; /* Takes up equal space */
+}
+
+.item2 {
+  flex: 2; /* Takes up twice the space of item1 */
+}
+
+.item3 {
+  flex: 1; /* Takes up equal space */
+}
+
+.item4 {
+  flex: 1; /* Takes up equal space */
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.task36 {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item1 {
+  flex: 1; /* Takes up equal space */
+}
+
+.item2 {
+  flex: 1; /* Takes up equal space */
+}
+
+.item3 {
+  flex: 0.5; /* Takes up half the space of item1 and item2 */
+}
+
+.item4 {
+  flex: 1; /* Takes up equal space */
+}
+
+/* Add styles for other items if needed */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.task37 {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item1,
+.item2,
+.item3 {
+  flex: 1; /* Takes up equal space */
+}
+
+.item4 {
+  width: 200px; /* Initial width of 200px */
+  flex: 0 0 auto; /* Do not grow or shrink, use the initial width */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .task38 {
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Set margin between rows */
 }
 
-.task39 .item1 {
+.item {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 30px; /* Set margin between columns */
 }
-.task39 .item3 {
+
+.item4 {
+  margin-right: 0; /* Remove margin for the last column in each row */
+}
+
+/* Add styles for other items if needed */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task39 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Set margin between rows */
+}
+
+.item {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 30px; /* Set margin between columns */
+}
+
+.item4 {
+  margin-right: 0; /* Remove margin for the last column in each row */
 }
